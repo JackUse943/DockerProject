@@ -9,7 +9,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class MicroServiceEurekaServerApplication {
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(MicroServiceEurekaServerApplication.class, args);
+	     System.out.println("Server Is running on the  port Number 8761");
 	}
 
 }

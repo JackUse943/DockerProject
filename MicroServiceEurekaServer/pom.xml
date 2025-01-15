@@ -65,7 +65,7 @@
 	</dependencyManagement>
 
 	<build>
-	<finalName>MicroServiceEurekaServer</finalName>
+	<finalName>webapp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

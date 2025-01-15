@@ -1,3 +1,4 @@
-From tomcat:10-jdk17
-COPY target/MicroServiceEurekaServer.war /usr/local/tomcat/webapps/MicroServiceEurekaServer.war
-EXPOSE 8080
+From openjdk
+WORKDIR /app
+COPY target/*.jar /app
+CMD ["java","-jar","webapp.jar"]
