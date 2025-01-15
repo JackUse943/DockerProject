@@ -1,4 +1,4 @@
 From openjdk
 WORKDIR /app
 COPY target/*.jar /app
-CMD ["java","-jar","webapp.jar"]
+CMD ["java","-jar","WebApp.jar"]

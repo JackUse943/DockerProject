@@ -65,7 +65,7 @@
 	</dependencyManagement>
 
 	<build>
-	<finalName>webapp</finalName>
+	<finalName>WebApp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
